@@ -1,0 +1,10 @@
+[10-Oct-2019 11:01:12 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/songthu1/lib/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/songthu1/lib/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/songthu1/...', 35, Array)
+#1 /home/songthu1/lib/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/songthu1/lib/vendor/laravel/framework/src/Illuminate/Routing/Router.php(415): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/songthu1/lib/vendor/laravel/framework/src/Illuminate/Routing/Router.php(373): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/songthu1/lib/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(121): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/songthu1/lib/routes/api.php(47): Illuminate\Routing\RouteRegistrar->group(Array, Object(Closure))
+#6 /home/songt in /home/songthu1/lib/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[10-Oct-2019 11:01:12 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/songthu1/lib/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
